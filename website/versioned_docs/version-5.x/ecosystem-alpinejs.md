@@ -237,7 +237,7 @@ singleSpa.registerApplication({
   - Attaches a resolved `xInit` as a string that calls the globally defined variable `x-init="singleSpaAlpineXInit.myapp('alpine-myapp')"` to the `parent dom element`.
   - **Note** that this also passes `id` of the `parent dom element` which can then be used to access the alpine data elements to update the state as required.
 
-  #### Special characters in the application names
+#### Special characters in the application names
 
   - You may have special characters in the application name for example `@my/app`. See the example below
 
